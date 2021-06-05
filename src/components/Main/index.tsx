@@ -1,10 +1,13 @@
 import * as S from './styles'
 
-const Main = () => (
+const Main = ({
+  title = 'Lorem Ipsum',
+  description = 'Give me some description'
+}) => (
   <S.Wrapper data-testid="main__div--wrapper">
-    <S.Title data-testid="main__text--title">Lorem Ipsum</S.Title>
+    <S.Title data-testid="main__text--title">{title}</S.Title>
     <S.Description data-testid="main__text--description">
-      Give me some description
+      {description}
     </S.Description>
   </S.Wrapper>
 )
