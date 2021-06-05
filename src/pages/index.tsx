@@ -1,11 +1,5 @@
-type Props = {
-  text: string
-}
+import Main from 'components/Main'
 
-export default function Home({ text = 'My title' }: Props) {
-  return (
-    <main>
-      <p>{text}</p>
-    </main>
-  )
-}
+const Home = () => <Main />
+
+export default Home
