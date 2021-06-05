@@ -1,16 +1,13 @@
-import { withKnobs, text } from '@storybook/addon-knobs'
 import { Meta, Story } from '@storybook/react/types-6-0'
 import Main from '.'
 
 export default {
   title: 'Main',
-  component: Main,
-  decorators: [withKnobs]
+  component: Main
 } as Meta
 
-export const Basic: Story = () => (
-  <Main
-    title={text('Title', 'Lorem Ipsum')}
-    description={text('Description', 'Give some description')}
-  />
-)
+export const Basic: Story = (args) => <Main {...args} />
+
+// We don't need use theses properties bacause the Main component already have default props and types
+// Basic.args = {...}
+// Basic.argTypes = {...}
