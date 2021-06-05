@@ -6,13 +6,11 @@ export const Wrapper = styled.main`
   color: #fff;
   display: flex;
   flex-direction: column;
-  height: 100%;
+  height: 100vh;
   justify-content: center;
   text-align: center;
   width: 100%;
 `
-
-export const Logo = styled.img``
 
 export const Title = styled.h1`
   font-size: 2.5rem;
