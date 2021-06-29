@@ -8,36 +8,36 @@
 
 > A boilerplate for Next.js applications using Typescript
 
-## Tools
+# Tools
 
 ### Superset
 
-- Typescript;
+- Typescript
 
 ### Dev environment
 
-- eslint;
-- prettier;
-- husky;
-- lint-staged;
-- .editorconfig;
+- Eslint
+- Prettier
+- Husky
+- Lint-staged
+- .editorconfig
 
 ### Tests
 
-- Jest;
-- React Testing Library;
+- Jest
+- React Testing Library
 
 ### Styles
 
-- Styled Components;
+- Styled Components
 
 ### Documentation
 
-- Storybook;
+- Storybook
 
 ### PWA
 
-- next-pwa;
+- next-pwa
 
 ## Install
 
