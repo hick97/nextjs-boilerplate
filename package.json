@@ -9,6 +9,7 @@
     "lint": "eslint src",
     "test": "jest",
     "test:watch": "yarn test --watch",
+    "generate": "yarn plop --plopfile ./generators/plopfile.js",
     "storybook": "start-storybook -s ./public -p 6006",
     "build-storybook": "build-storybook -s ./public"
   },
@@ -21,6 +22,7 @@
   "dependencies": {
     "next": "10.2.3",
     "next-pwa": "^5.2.21",
+    "plop": "^2.7.4",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "styled-components": "^5.3.0"
