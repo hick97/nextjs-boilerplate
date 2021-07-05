@@ -3,10 +3,10 @@ import Main from '.'
 
 export default {
   title: 'Main',
-  component: Main
+  component: Main,
 } as Meta
 
-export const Basic: Story = (args) => <Main {...args} />
+export const Basic: Story = args => <Main {...args} />
 
 // We don't need use theses properties bacause the Main component already have default props and types
 // Basic.args = {...}
