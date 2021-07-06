@@ -40,43 +40,45 @@
 
 - [next-pwa](https://github.com/shadowwalker/next-pwa)
 
-## Install
+# Commands
+
+### Install
 
 ```sh
 yarn install
 ```
 
-## Build
+### Build
 
 ```sh
 yarn build
 ```
 
-## Usage
+### Usage
 
 ```sh
 yarn run start
 ```
 
-## Development mode
+### Development mode
 
 ```sh
 yarn run dev
 ```
 
-## Running storybook
+### Running storybook
 
 ```sh
 yarn storybook
 ```
 
-## Running lint
+### Running lint
 
 ```sh
 yarn lint
 ```
 
-## Running tests
+### Running tests
 
 ```sh
 yarn test
@@ -84,7 +86,7 @@ or
 yarn test:watch (Watch mode)
 ```
 
-## Running component generator
+### Running component generator
 
 ```sh
 yarn generate
