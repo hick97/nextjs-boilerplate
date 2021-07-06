@@ -12,32 +12,33 @@
 
 ### Superset
 
-- Typescript
+- [typescript]()
 
 ### Dev environment
 
-- Eslint
-- Prettier
-- Husky
-- Lint-staged
-- .editorconfig
+- [plop](https://plopjs.com/)
+- [husky](https://github.com/typicode/husky)
+- [eslint](https://eslint.org/docs/user-guide/getting-started)
+- [prettier](https://prettier.io/)
+- [lint-staged](https://github.com/okonet/lint-staged)
+- [.editorconfig](https://editorconfig.org/)
 
 ### Tests
 
-- Jest
-- React Testing Library
+- [Jest](https://jestjs.io/pt-BR/docs/getting-started)
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
 
 ### Styles
 
-- Styled Components
+- [Styled Components](https://styled-components.com/)
 
 ### Documentation
 
-- Storybook
+- [Storybook](https://storybook.js.org/docs/react/get-started/introduction)
 
 ### PWA
 
-- next-pwa
+- [next-pwa](https://github.com/shadowwalker/next-pwa)
 
 ## Install
 
@@ -63,11 +64,32 @@ yarn run start
 yarn run dev
 ```
 
+## Running storybook
+
+```sh
+yarn storybook
+```
+
+## Running lint
+
+```sh
+yarn lint
+```
+
 ## Running tests
 
 ```sh
 yarn test
+or
 yarn test:watch (Watch mode)
+```
+
+## Running component generator
+
+```sh
+yarn generate
+or
+yarn generate YourComponentName
 ```
 
 ## Author
@@ -84,4 +106,5 @@ Give a ⭐️ if this project helped you!
 
 ---
 
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+_This README was generated with ❤️ by
+[readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
